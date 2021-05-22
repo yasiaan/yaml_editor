@@ -1,0 +1,47 @@
+emp1-app:
+  defaultVersion:
+    defaultMajorMinorVersion: 2.0
+    versionRules:
+      2:
+        defaultMinorVersion: 0
+emp2-app:
+  defaultVersion:
+    defaultMajorMinorVersion: 2.0
+    versionRules:
+      2:
+        defaultMinorVersion: 0
+emp3-app:
+  defaultVersion:
+    defaultMajorMinorVersion: 3.0
+    versionRules:
+      3:
+        defaultMinorVersion: 0
+emp4-app:
+  defaultVersion:
+    defaultMajorMinorVersion: 3.0.1
+    versionRules:
+      1:
+        defaultMinorVersion: 0
+      2:
+        defaultMinorVersion: 0
+
+#############################
+#Ribbon
+#############################
+
+emp4-app-3.0.1:
+  ribbon:
+    ReadTimeout: 30000
+
+emp2-app-2.0:
+  ribbon:
+    ReadTimeout: 30000
+
+emp3-app-3.0:
+  ribbon:
+    ReadTimeout: 30000
+
+emp1-app-2.0:
+  ribbon:
+    ReadTimeout: 30000
+
